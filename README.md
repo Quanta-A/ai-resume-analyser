@@ -1,13 +1,12 @@
-🧠 AI Resume Analyser
+#🧠 AI Resume Analyser
 
 An AI-powered resume analyzer built with React, React Router, and Puter.js. This project helps users upload, store, and analyze resumes with smart AI evaluations. Get custom feedback, ATS scores, and job-specific insights—all within a modern, reusable UI.
 
-✨ Introduction
+##✨ Introduction
 
 Build an AI-powered Resume Analyzer that makes hiring smarter and resumes stronger. With Puter.js, you get seamless authentication, storage, and AI without the need for a backend. Upload resumes, match candidates to job descriptions, and generate detailed AI-driven feedback and ATS scores.
 
-
-⚙️ Tech Stack
+##⚙️ Tech Stack
 
 React – Component-based UI library for fast, dynamic applications
 React Router v7 – Routing library with nested routes, SSR support & loaders
@@ -18,7 +17,7 @@ Vite – Lightning-fast dev server & production bundler
 Zustand – Minimal, hook-based state management for React
 
 
-🔋 Features
+##🔋 Features
 
 👉 Seamless Auth – Handle authentication directly in the browser with Puter.js
 👉 Resume Upload & Storage – Securely upload and manage resumes in the cloud
@@ -29,13 +28,13 @@ Zustand – Minimal, hook-based state management for React
 👉 Cross-Device Support – Works smoothly across desktops, tablets, and mobiles
 
 
-🌐 Live Demo
+##🌐 Live Demo
 
 The project is deployed and accessible here:  
-🔗 https://ai-resume-analyser-amber-zeta.vercel.app/ 
+🔗 [*AI Resume Analyser - Live Site*](https://ai-resume-analyser-amber-zeta.vercel.app/) 
 
 
-🔗 Assets
+##🔗 Assets
 
 🎨 UI Components – built with shadcn/ui & TailwindCSS
 📦 State Management – handled with Zustand
