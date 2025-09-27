@@ -1,87 +1,44 @@
-# Welcome to React Router!
+🧠 AI Resume Analyser
 
-A modern, production-ready template for building full-stack React applications using React Router.
+An AI-powered resume analyzer built with React, React Router, and Puter.js. This project helps users upload, store, and analyze resumes with smart AI evaluations. Get custom feedback, ATS scores, and job-specific insights—all within a modern, reusable UI.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+✨ Introduction
 
-## Features
+Build an AI-powered Resume Analyzer that makes hiring smarter and resumes stronger. With Puter.js, you get seamless authentication, storage, and AI without the need for a backend. Upload resumes, match candidates to job descriptions, and generate detailed AI-driven feedback and ATS scores.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
 
-## Getting Started
+⚙️ Tech Stack
 
-### Installation
+React – Component-based UI library for fast, dynamic applications
+React Router v7 – Routing library with nested routes, SSR support & loaders
+Puter.js – Client-side SDK providing auth, storage, database, and AI APIs
+Tailwind CSS – Utility-first styling for responsive & modern design
+TypeScript – Adds type safety and better tooling to JavaScript
+Vite – Lightning-fast dev server & production bundler
+Zustand – Minimal, hook-based state management for React
 
-Install the dependencies:
 
-```bash
-npm install
-```
+🔋 Features
 
-### Development
+👉 Seamless Auth – Handle authentication directly in the browser with Puter.js
+👉 Resume Upload & Storage – Securely upload and manage resumes in the cloud
+👉 AI Resume Matching – Compare resumes against job descriptions with ATS scores & feedback
+👉 Custom Feedback – Suggestions to improve skills and optimize resumes
+👉 Modern, Responsive UI – Built with Tailwind CSS & shadcn/ui
+👉 Reusable Codebase – Modular, maintainable architecture
+👉 Cross-Device Support – Works smoothly across desktops, tablets, and mobiles
 
-Start the development server with HMR:
 
-```bash
-npm run dev
-```
+🌐 Live Demo
 
-Your application will be available at `http://localhost:5173`.
+The project is deployed and accessible here:  
+🔗 https://ai-resume-analyser-amber-zeta.vercel.app/ 
 
-## Building for Production
 
-Create a production build:
+🔗 Assets
 
-```bash
-npm run build
-```
+🎨 UI Components – built with shadcn/ui & TailwindCSS
+📦 State Management – handled with Zustand
+🤖 AI – powered by Puter.js AI APIs (GPT, Claude, OCR, etc.)
 
-## Deployment
 
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
